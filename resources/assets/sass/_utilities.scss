@@ -1,0 +1,44 @@
+//background colors
+.bg-purple{
+  background-color: color("purple") !important;
+}
+.bg-blue{
+  background-color: color("blue") !important;
+}
+.bg-indigo{
+  background-color: color("indigo") !important;
+}
+.bg-pink{
+  background-color: color("pink") !important;
+}
+.bg-red{
+  background-color: color("red") !important;
+}
+.bg-orange{
+  background-color: color("orange") !important;
+}
+.bg-yellow{
+  background-color: color("yellow") !important;
+}
+.bg-green{
+  background-color: color("green") !important;
+}
+.bg-teal{
+  background-color: color("teal") !important;
+}
+.bg-cyan{
+  background-color: color("cyan") !important;
+}
+//border colors
+
+//zoom
+.zoom{
+  position: relative;
+  overflow: hidden;
+}
+.zoom img{
+  transition: all 0.3s;
+}
+.zoom:hover img{
+  transform: scale(1.1);
+}

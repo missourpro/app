@@ -1,0 +1,15 @@
+//buttons
+.btn-primary{
+  background: #00C9FF;  /* fallback for old browsers */
+  background: linear-gradient(to left, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+}
+.btn-outline-primary{
+  border: $btn-border-width solid #00C9FF;
+  color:#00C9FF;
+  &:hover{
+    background: #00C9FF;  /* fallback for old browsers */
+    background: linear-gradient(to left, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+  }
+}

@@ -1,0 +1,19 @@
+.section{
+  @extend .shadow;
+  //: rgba(0,0,0,0) url('http://www.webdesignhot.com/wp-content/uploads/2016/06/Orange_Yellow_Gradient_Background.jpg') repeat scroll ;
+  .section-title span {
+    position: relative;
+    font-family: "Lobster", sans-serif !important;
+
+  }
+  .section-title span:after {
+    position: absolute;
+    content: '';
+    width: 42%;
+    height: 1px;
+    border-bottom: 5px solid color("white");
+    bottom: -14px;
+    left: 40%;
+    margin-left: -7.5%;
+  }
+}
